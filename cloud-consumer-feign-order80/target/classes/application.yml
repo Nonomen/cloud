@@ -1,0 +1,18 @@
+server:
+  port: 80
+
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+
+ribbon:
+  #连接后获取数据等待时间
+  ReadTimeout: 5000
+  #建立连接时间
+  ConncetTimeout: 5000
+
+logging:
+  level:
+    com.nono.cloud.service.PaymentFeignService: debug
