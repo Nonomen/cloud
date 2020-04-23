@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/cloud-provider-hystrix-payment8001.iml" filepath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/cloud-provider-hystrix-payment8001.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/cloud-stream-rabbitmq-consumer8802.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/cloud-stream-rabbitmq-consumer8802.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/cloud-stream-rabbitmq-provider8801.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/cloud-stream-rabbitmq-provider8801.iml" />
     </modules>
   </component>

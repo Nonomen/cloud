@@ -73,27 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="GetTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GetTime" />
-      <module name="cloud-geteway-gateway9527" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-config-center-3344" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nono.cloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nono.cloud.ConfigCenterMain3344" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.StreamMQMain8802">
     <configuration name="ConfigClientMain3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-config-client-3355" />
       <extension name="coverage">
@@ -197,13 +177,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamMQMain8801" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-stream-rabbitmq-provider8801" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nono.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nono.cloud.StreamMQMain8801" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMQMain8802" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-stream-rabbitmq-consumer8802" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nono.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nono.cloud.StreamMQMain8802" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.StreamMQMain8802" />
+        <item itemvalue="Spring Boot.StreamMQMain8801" />
+        <item itemvalue="Spring Boot.EurekaMain7001" />
         <item itemvalue="Spring Boot.ConfigClientMain3366" />
         <item itemvalue="Spring Boot.ConfigClientMain3355" />
-        <item itemvalue="Spring Boot.ConfigCenterMain3344" />
-        <item itemvalue="Spring Boot.EurekaMain7001" />
-        <item itemvalue="Application.GetTime" />
       </list>
     </recent_temporary>
   </component>
@@ -216,6 +222,11 @@
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@db9e26bb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@db9e26bb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@610774f0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -249,7 +260,7 @@
       <workItem from="1587376310935" duration="9522000" />
       <workItem from="1587465791666" duration="9991000" />
       <workItem from="1587516743227" duration="16695000" />
-      <workItem from="1587607773345" duration="14588000" />
+      <workItem from="1587607773345" duration="17601000" />
     </task>
     <servers />
   </component>
