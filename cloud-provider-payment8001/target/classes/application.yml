@@ -10,6 +10,13 @@ spring:
     url: jdbc:mysql://localhost/cloud_test?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
     username: root
     password:
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      #采样值0-1 1全部采集
+      probability: 1
+
 
 mybatis:
   mapper-locations: classpath:/mapper/*.xml

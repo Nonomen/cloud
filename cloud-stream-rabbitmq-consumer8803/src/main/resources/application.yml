@@ -1,5 +1,5 @@
 server:
-  port: 8802
+  port: 8803
 
 spring:
   application:
@@ -20,7 +20,7 @@ spring:
           destination: studyExchange #要使用的Exchange名称定义
           content-type: application/json #设置消息类型  text/plain
           binder: defaultRabbit #设置要绑定的消息服务的具体设置
-          group: groupA # 不同的组存在重复消费，相同的组之间竞争消费。
+          #group: groupA # 不同的组存在重复消费，相同的组之间竞争消费。
 
 eureka:
   client:
@@ -29,5 +29,5 @@ eureka:
   instance:
     lease-renewal-interval-in-seconds: 2 #默认心跳间隔
     lease-expiration-duration-in-seconds: 5 #超过5秒
-    instance-id: send-8802.com  #信息列表显示主机名称
+    instance-id: send-8803.com  #信息列表显示主机名称
     prefer-ip-address: true #访问路径更改为IP地址
